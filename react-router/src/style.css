@@ -1,0 +1,42 @@
+.navlink {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+nav {
+    border-bottom: 5ps solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.home {
+    background-color: green;
+    padding: 20px;
+}
+
+.contact {
+    background-color: blue;
+    padding: 20px;
+}
+
+.services {
+    background-color: red;
+    padding: 20px;
+}
+
+.active {
+    background-color: pink;
+}
+.users{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #ddd;
+    width: 200px;
+}
